@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Web Archivo Rel. 6.0</title>
+        <meta charset="UTF-8">
+        <meta name="descrition" content="Esta es la version 5.0 mejorando el diseño de la Web Archivo, totalmente Flexbox">
+        <meta name="keywords" content="">
+        <meta name="viewport" content="width=divice-width, user-scalable=no, initial-scale=1, maximun-scale=1, minimun-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/fuentes.css"/>
+        <link rel="stylesheet" type="text/css" href="css/estilos_generales.css"/>
+        <link rel="stylesheet" type="text/css" href="css/estilos_header.css"/>
+        <link rel="stylesheet" type="text/css" href="css/estilos_banner.css"/>
+        <link rel="stylesheet" type="text/css" href="css/estilos_main.css"/>
+        <link rel="stylesheet" type="text/css" href="css/estilos_contactos.css"/>
+        <link rel="stylesheet" type="text/css" href="css/estilos_aside.css"/>
+        <link rel="stylesheet" type="text/css" href="css/estilos_footer.css"/-->
+        <link rel="stylesheet" href="css/fontello.css">
+        <link rel="stylesheet" href="css/house.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="subheader">
+           <header class="header contenedor">
+                <div class="logo__imagen">
+                    <img src="imagenes/LogoHospitalMini.png" width="140" height="140" class="logo__img-min">
+                    <img src="imagenes/LogoAniversario.png" width="140" height="145" class="logo__img-long">
+                </div>
+                <div class="logo__nombre">
+                    <h6 class="logo__departamento">Departamento de</h6>
+                    <h1 class="logo__archivo">Archivo</h1>
+                </div>
+                <div class="icon">
+                    <span class="icon-menu"></span>
+                    <span class="icon-menu-2"></span>
+                </div>
+            </header>
+        </div>
+        <nav class="nav contenedor">
+            <ul class="menu">
+                <li class="menu__item">
+                    <a class= "menu__link select" href=""><span class="menu__icon icon-inicio"></span>Inicio</a>
+                </li>
+                <li class="menu__item">
+                    <a class= "menu__link" href=""><span class="menu__icon icon-nosotros"></span>Nosotros<span class="caret icon-down-open"></span></a>
+                    <ul class="menu__children">
+                        <li class="children__item"><a class= "children__link" href="html/nuestra_funcion.html">Nuestra Función</a></li>
+                        <li class="children__item"><a class= "children__link" href="html/estructura_organica.html">Estructura Orgánica</a></li>
+                        <li class="children__item"><a class= "children__link" href="html/tareas.html">Tareas y Actividades</a></li>
+                        <li class="children__item"><a class= "children__link" href="html/equipo.html">El Equipo</a></li>
+                    </ul>
+                </li>
+                <li class="menu__item">
+                    <a class= "menu__link" href=""><span class="menu__icon submenu__icon icon-capacitacion"></span>Capacitación<span class="caret icon-down-open"></span></a>
+                    <ul class="menu__children">
+                        <li class="children__item"><a class= "children__link" href="html/capsulas_educativas.html">Cápsulas Educativas</a></li>
+                        <li class="children__item"><a class= "children__link" href="html/documentos.html">Documentos y Artículos</a></li>
+                    </ul>
+               </li>
+                <li class="menu__item">
+                    <a class= "menu__link" href=""><span class="menu__icon icon-eventos"></span>Eventos<span class="caret icon-down-open"></span></a>
+                    <ul class="menu__children">
+                        <li class="children__item"><a class= "children__link" href="html/charlas.html">Charlas</a></li>
+                        <li class="children__item"><a class= "children__link" href="html/talleres.html">Talleres</a></li>
+                    </ul>
+                </li>
+                <li class="menu__item">
+                    <a class= "menu__link" href=""><span class="menu__icon icon-actividades"></span>Galería<span class="caret icon-down-open"></span></a>
+                    <ul class="menu__children">
+                        <li class="children__item"><a class= "children__link" href="#">Fotos</a></li>
+                        <li class="children__item"><a class= "children__link" href="#">Videos</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="sia">
+                <a class="sia__link" href="ArchivoAdm.accdb" target="_blank"><img class="sia__img" src="imagenes/ArchivoLogoSie.png"></a>
+            </div>
+        </nav>
+        <div class= "contenedor">
+            <section class="banner">
+                <img  class="banner__img"src="imagenes/fotoArchivo.jpg">
+                <div class="banner__texto">
+                    <h3 class="banner__titulo">Gestionamos la información clínica de los pacientes</h3>
+                    <p class="banner__txt">Eficiencia y eficacia en la organización y difusión de la historia clínica del paciente</p>
+                </div>
+            </section>
+        </div>
+        <main class="main contenedor">
+            <article class="info__columna">
+                <img src="imagenes/archivo3.jpg"  alt="" class="info__img">
+                <h2 class="info__titulo">Organización</h2>
+                <p class="info__txt">Recopilar toda la documentación del paciente en una historia clínica, custodiar, conservar  y administrar la documentación que va generándose a lo largo de los sucesivos procesos asistenciales.</p>
+            </article>
+            <article class="info__columna">
+                <img src="imagenes/archivo2.png" alt="" class="info__img">
+                <h2 class="info__titulo">Difusión</h2>
+                <p class="info__txt">A través de procesos de organización documental, recuperar selectivamente y facilitar la historia clínica demandada por los distintos usuarios, asegurando su disponibilidad y velando por su confidencialidad. </p>
+            </article>
+            <article class="info__columna">
+                <img src="imagenes/archivo1.png"  alt="" class="info__img">
+                <h2 class="info__titulo">Indicadores</h2>
+                <p class="info__txt">Establecer indicadores de cada uno de los procesos que se realizan en la organización, entrega y recuperación de la historia clínica, para el adecuado control de la actividad del área.</p>
+            </article>
+        </main>
+        <section class="contenedor equipo__titulo">
+            <h2>El Equipo</h2>
+        </section>    
+        <section class="contenedor contacto">
+            <section class="equipo">    
+                <div class="equipo__columna">
+                    <img src="imagenes/fotoFelix.png" alt="" class="equipo__img">
+                    <div class="equipo__description">
+                        <h4 class="equipo__nombre">Lic. Felix A. De La Cruz</h4>
+                        <p class="equipo__posicion">Encargado</p>
+                    </div>
+                </div>
+                <div class="equipo__columna">
+                    <img src="imagenes/FotoLuisa.jpg" alt="" class="equipo__img">
+                    <div class="equipo__description">
+                        <h4 class="equipo__nombre">Luisa Quezada</h4>
+                        <p class="equipo__posicion">Coordinadora</p>
+                    </div>
+                </div>
+                <div class="equipo__columna">
+                    <img src="imagenes/FotoGrecia.png" alt="" class="equipo__img">
+                    <div class="equipo__description">
+                        <h4 class="equipo__nombre">Grecia Rudecindo</h4>
+                        <p class="equipo__posicion">Auxiliar</p>
+                    </div>
+                </div>
+                <div class="equipo__columna">
+                <img src="imagenes/FotoCrucita.png" alt="" class="equipo__img">
+                   <div class="equipo__description">
+                        <h4 class="equipo__nombre">Crucita María</h4>
+                        <p class="equipo__posicion">Auxiliar</p>
+                    </div>
+                </div>
+                <div class="equipo__columna">
+                    <img src="imagenes/FotoCelina.png" alt="" class="equipo__img">
+                    <div class="equipo__description">
+                        <h4 class="equipo__nombre">Celina Ferrand</h4>
+                        <p class="equipo__posicion">Auxiliar</p>
+                    </div>
+                </div>
+                <div class="equipo__columna">
+                    <img src="imagenes/FotoWilmer.png" alt="" class="equipo__img">
+                    <div class="equipo__description">
+                        <h4 class="equipo__nombre">Wilmer Rosario</h4>
+                        <p class="equipo__posicion">Auxiliar</p>
+                    </div>
+                </div>
+                <div class="equipo__columna">
+                    <img src="imagenes/FotoKatherine.png" alt="" class="equipo__img">
+                    <div class="equipo__description">
+                        <h4 class="equipo__nombre">Katherine Valdez</h4>
+                        <p class="equipo__posicion">Auxiliar</p>
+                    </div>
+                </div>
+                <div class="equipo__columna">
+                    <img src="imagenes/FotoNidia.png" alt="" class="equipo__img">
+                    <div class="equipo__description">
+                        <h4 class="equipo__nombre">Nidia Cabrera</h4>
+                        <p class="equipo__posicion">Auxiliar</p>
+                    </div>
+                </div>
+                <div class="equipo__columna">
+                    <img src="imagenes/FotoAltagracia.png" alt="" class="equipo__img">
+                    <div class="equipo__description">
+                        <h4 class="equipo__nombre">María Alt. Caraballo</h4>
+                        <p class="equipo__posicion">Auxiliar</p>
+                    </div>
+                </div>
+            </section>
+            <aside class="aparte">
+                <div class="widget">
+                    <img  class="widget__img" src="imagenes/portada.jpg">
+                </div>
+                <div class="widget">
+                    <h3 class="widget__titulo">Ubicación: 4ta. Planta<br>Tel. 809-568-8222</h3>
+                    <ul class="widget__lista">
+                        <li class="lista__item">Oficina: Suite 4053, Ext. 104</li>
+                        <li class="lista__item">Depósito 1: Suite 4051, Ext. 220</li>
+                        <li class="lista__item">Depósito 2: Suite 422, Ext. 422</li>
+                    </ul>
+                </div>
+            </aside>
+        </section>
+        <footer class="footer">
+            <div class="subfooter">
+                <div class="social">
+                    <a href="" class="icon-mail"></a>
+                </div>
+                <div>
+                    <p js/mostrar.jsclass="copy">&copy;2017-faDLC -- Lic. Félix A. De La Cruz</p>
+                </div>
+            </div>
+        </footer>
+        <script src="js/mostrar.js"></script>
+        <script src="js/stickyMenu.js"></script>
+    </body>
+</html>    

@@ -1,0 +1,50 @@
+/* -------- Estilos de main -------- */
+
+.main {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.equipo {
+    background-color: rgba(81, 155, 163, 0.7);
+    width: 660px;
+    padding: 30px 10px 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.equipo_columna {
+    width: 170px;
+    height: 180px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.equipo_img {
+    width: 90%;
+    height: 100%;
+}
+
+.equipo_description {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.9);
+    top: 128px;
+    margin: 0;
+    background: rgba(0,0,0,0.5);
+    width: 90%;
+    height: 30%;
+    padding: 0 5px;
+}
+
+.equipo_nombre {
+    font-family: Ubuntu;
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.equipo_posicion {
+    font-family: Ubuntu;
+}
+

@@ -1,0 +1,19 @@
+/*---- @import url(fuentes.css); /*---- es mala practica hacer esto, lo cambie por un link que es mucho mas veloz---- */
+
+* {
+    box-sizing: border-box; /* ---- Es bueno incializar el CSS, se puede usar librerias resetcss y normalize ----*/
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+body {
+    font-family: sans-serif;
+    background: #EFF9FF;
+}
+

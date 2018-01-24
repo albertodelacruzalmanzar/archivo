@@ -1,0 +1,129 @@
+/* ------ Estilos del header ------ */
+
+.subheader {
+    width: 100%;
+    background: #154444;
+    margin-bottom: 1px;
+}
+
+.header {
+    width: 100%;
+    padding: 10px;
+    
+    /*FLEX*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__departamento {
+    margin-top: 5px;
+    font-family: Speectral;
+    font-size: 13px;
+    color: #94E4FC;
+    margin-left: 30px;
+}
+
+.logo__archivo {
+    font-family: Caveat;
+    font-size: 62px;
+    color: #94E4FC;
+    text-shadow: 1px 1px #0D5EC6;
+    margin-top: -18px;
+}
+
+.titulo__subheader {
+    font-family: Speectral;
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.subtitulo__subheader {
+    font-family: Caveat;
+    font-size: 40px;
+    color: #00C3F9;
+}
+
+
+/* --------- Estilos del menu -------- */
+
+.nav {
+    width: 100%;
+    background: #004c4f;
+    box-shadow: 0px 2px 0px #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sticky {
+    position: fixed;
+    /*width: auto;*/
+    top: 0;
+    left: 260px;
+    z-index: 1000;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu__item {
+    text-align: left;
+    list-style: none;
+    line-height: 50px;
+    position: relative;
+}
+
+.menu__item :hover {
+    background: #12506D; 
+}
+
+.menu__link, .children__link {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.select{
+    background: #18416B; 
+}
+
+.menu__icon {
+    margin-right: 10px;
+    color: #00C5F7;
+}
+
+.caret {
+    font-size: 10px;
+    position: relative;
+    top: 0px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.menu__item .ul__menu {
+    display: none;
+    background: #004c4f;
+    position: absolute;
+    width: 150%;
+    z-index: 1000;
+}
+
+.menu__item:hover .ul__menu {
+    display: block;
+}
+
+.menu__item:nth-last-child(1) .ul__menu {
+    width: 121%;
+}
+
+.li__item {
+    display: block;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+

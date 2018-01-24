@@ -1,0 +1,141 @@
+/* -------- Estilos de main -------- */
+
+.main {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 1px solid rgba(0,0,0, 0.3);
+    
+}
+
+.main section {
+    border: 1px solid rgba(0,0,0, 0.1);
+    padding: 15px 20px;
+    background-color: #E8F6FF;
+}
+
+.main section h1 {
+    font-family: Caveat;
+    font-size: 60px;
+    color: #0058BC;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+.main section p {
+    font-family: BreeSerif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 20px;
+}
+
+.main section h2 {
+    font-family: BreeSerif;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 10px;
+}
+
+.main section h3 {
+    font-family: BreeSerif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.9);
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.main section h4 {
+    font-family: BreeSerif;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.9);
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.articulos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.columna {
+    border: 1px solid rgba(0,0,0, 0.3);
+    background-color: #C9EAFF;
+    border-radius: 10px;
+}
+
+article {
+    width: auto;
+    height: auto; 
+    margin-bottom: 10px;
+}
+
+.columna {
+    margin: 10px;
+    padding: 10px;
+}
+
+.columna h2, h3, p {
+    padding: 0 20px;
+}
+
+.columna h5 {
+    text-align: right;
+}
+
+.columna h5 a {
+    text-decoration: none;
+    border: 1px solid #000;
+    padding: 2px;
+}
+
+.columna ul {
+    padding: 0 0 0 40px;
+}
+
+.columna ul li {
+    font-family: BreeSerif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 5px 0;
+}
+
+.leer-mas {
+    width: 360px;
+    height: 150px;
+    overflow: hidden;
+}
+
+button {
+    background-color: #3C7AB7;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4CAF50;
+}
+
+.button_menos{
+    display: none;
+}
+
+.mas {
+    display: inline-block;
+}
+
+.menos {
+    display: none;
+}

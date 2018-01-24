@@ -1,0 +1,189 @@
+/* ------ Estilos del header ------ */
+
+.subheader {
+    width: 100%;
+    background: #154444;
+    margin-bottom: 1px;
+}
+
+.header {
+    width: 100%;
+    padding: 10px;
+    
+    /*FLEX*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__imagen {
+    width: 25%;
+}
+
+.logo__img-min {
+    display: none;
+}
+
+.logo__img-long {
+    width: 200px;
+    height: 70px;
+}
+
+.logo__nombre {
+    width: 20%;
+    height: 80px;
+    padding: 0 10px 0 5px;
+}
+
+.logo__departamento {
+    margin-top: 5px;
+    font-family: Speectral;
+    font-size: 13px;
+    color: #94E4FC;
+    margin-left: 30px;
+}
+
+.logo__archivo {
+    font-family: Caveat;
+    font-size: 62px;
+    color: #94E4FC;
+    text-shadow: 1px 1px #0D5EC6;
+    margin-top: -18px;
+}
+
+.icon {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon-menu {
+    display: block;
+    width: 70px;
+    height: 60px;
+    text-align: center;
+    font-size: 50px;
+    background-color: #00C5F7;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.icon-menu-2 {
+    display: none;
+    width: 65 px;
+    height: 55px;
+    text-align: center;
+    font-size: 45px;
+    background-color: #00C5F7;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mostrar_icon {
+    display: block;
+}
+
+.esconder_icon {
+    display: none;
+}
+
+/* --------- Estilos del menu -------- */
+
+.nav {
+    width: 100%;
+    background: #004c4f;
+    box-shadow: 0px 2px 2px #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mostrar_menu {
+    display: none;
+}
+
+.sticky {
+    position: fixed;
+    width: auto;
+    top: 0;
+    left: 260px;
+    z-index: 1000;
+}
+
+.menu {
+    width: 75%;
+    display: flex;
+}
+
+/*.menu li {                    /* --- es mala practica usar estilos directamentes en los elementos debemos usar classes ----- */
+
+.menu__item {
+    text-align: left;
+    list-style: none;
+    line-height: 50px;
+    position: relative;
+}
+
+.menu__item :hover {
+    background: #12506D; 
+}
+
+.menu__link, .children__link {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.select{
+    background: #18416B; 
+}
+
+.menu__icon {
+    margin-right: 10px;
+    color: #00C5F7;
+}
+
+.caret {
+    font-size: 10px;
+    position: relative;
+    top: 0px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.menu__item .menu__children {
+    display: none;
+    background: #004c4f;
+    position: absolute;
+    width: 150%;
+    z-index: 1000;
+}
+
+.menu__item:hover .menu__children {
+    display: block;
+}
+
+.children__item {
+    display: block;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.sia {
+    width: 5%;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;*/
+}
+
+.sia__link {
+    text-decoration: none;
+}
+
+.sia__img {
+    width: 100%;
+    border-radius: 10%;
+}
+

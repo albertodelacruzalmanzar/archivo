@@ -1,0 +1,16 @@
+@font-face {
+    font-family:BreeSerif;
+    src:url(../fuentes/Bree_Serif/BreeSerif-Regular.ttf)
+}
+@font-face {
+    font-family:Caveat;
+    src:url(../fuentes/Caveat/Caveat-Bold.ttf)
+}
+@font-face {
+    font-family:Speectral;
+    src:url(../fuentes/Spectral_SC/SpectralSC-Bold.ttf)
+}
+@font-face {
+    font-family:Ubuntu;
+    src:url(../fuentes/Ubuntu_Condensed/UbuntuCondensed-Regular.ttf)
+}

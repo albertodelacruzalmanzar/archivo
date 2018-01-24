@@ -1,0 +1,38 @@
+/* -------- Estilos del footer -------- */
+
+.footer {
+    width: 100%;
+    background: #154444;
+}
+
+.subfooter {
+    
+    color: #fff;
+    margin-top: 10px;
+    padding: 10px;
+    
+    /* FLEX */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: baseline;
+}
+
+.icon-mail {
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    background: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+}
+
+.copy {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
