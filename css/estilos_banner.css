@@ -38,3 +38,7 @@
     text-align: center;
 }
 
+.banner__proyecto {
+    display: none;
+}
+
